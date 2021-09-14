@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(180deg, #CF2425 0%, #FB696A 66%, #DA3B3F 100%);
@@ -14,7 +15,7 @@ body{
     flex-direction: column;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -22,14 +23,14 @@ nav{
     height: 48px;
 }
 
-.menu-icon{
+.menu-icon {
     width: 48px;
     height: 2px;
     background-color: #ffffff;
     box-shadow: -15px -10px 0px white, -15px 10px 0px white;
 }
 
-main{
+main {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,18 +38,17 @@ main{
     height: 80%;
 }
 
-
-h1{
+h1 {
     padding-right: 50px;
     max-width: 250px;
 }
 
-.garrafinha{
+.garrafinha {
     height: 90%;
     filter: drop-shadow(0px 200px 50px #770a0a);
 }
 
-.logo-coca{
+.logo-coca {
     width: 80vw;
     height: 80vh;
     position: absolute;
@@ -57,7 +57,7 @@ h1{
     object-fit: cover;
 }
 
-.garrafaFrase{
+.garrafaFrase {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -73,20 +73,19 @@ footer {
     margin-right: 30px;
 }
 
-@media (max-width: 768px){
-   
-    .garrafinha{
+@media (max-width: 768px) {
+    .garrafinha {
         margin-top: 48px;
         height: 65vh;
         position: absolute;
     }
-    h1{
-        width: 150px;       
-        font-size: 24px; 
+    h1 {
+        width: 150px;
+        font-size: 24px;
         max-width: 5500px;
         padding-right: unset;
     }
-    .garrafaFrase{
+    .garrafaFrase {
         flex-direction: column;
         justify-content: unset;
         align-items: center;
