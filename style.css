@@ -39,10 +39,7 @@ main{
 
 
 h1{
-    height: 50px;
     padding-right: 50px;
-    position: absolute;
-    left: 480px;
     max-width: 250px;
 }
 
@@ -58,6 +55,13 @@ h1{
     z-index: -1;
     opacity: 50%;
     object-fit: cover;
+}
+
+.garrafaFrase{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -76,11 +80,16 @@ footer {
         height: 65vh;
         position: absolute;
     }
-    main h1{
-        padding: 0;
-        width: 150px;
-        top: 96px;
-        font-size: 24px;
-        left: 172px;
+    h1{
+        width: 150px;       
+        font-size: 24px; 
+        max-width: 5500px;
+        padding-right: unset;
+    }
+    .garrafaFrase{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        margin-bottom: 50vh;
     }
 }
