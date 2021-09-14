@@ -22,16 +22,6 @@ nav{
     height: 48px;
 }
 
-/* header{
-    display: flex;
-    gap: 15px;
-    height: 100%;
-} */
-
-/* .menu-text{
-    top: 150px;
-} */
-
 .menu-icon{
     width: 48px;
     height: 2px;
@@ -76,8 +66,6 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    /* width: 100vw; */
-    /* background-color: tomato; */
     margin-right: 30px;
 }
 
@@ -94,6 +82,5 @@ footer {
         top: 96px;
         font-size: 24px;
         left: 172px;
-        /* text-align: center; */
     }
 }
